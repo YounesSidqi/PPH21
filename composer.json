@@ -1,0 +1,28 @@
+{
+    "type": "library",
+    "license": "proprietary",
+    "name": "modernoop/pph21",
+    "authors": [
+    {
+        "name": "Younes Sidqi Almanaf",
+        "email": "almanafyounes@gmail.com",
+        "homepage": "https://github.com/YounesSidqi"
+    }
+    ],
+    "require": {
+        "php": "^8.1.1"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "classmap-authoritative": true,
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "pph21\\": "src/"
+        }
+    }
+}
